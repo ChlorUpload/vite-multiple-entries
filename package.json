@@ -1,0 +1,23 @@
+{
+  "name": "unnormals-front",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev:admin": "vite --config vite-admin.config.ts",
+    "dev:online": "vite --config vite-online.config.ts",
+    "build:admin": "tsc && vite build --config vite-admin.config.ts",
+    "build:online": "tsc && vite build --config vite-online.config.ts"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.31",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^1.3.0",
+    "typescript": "^4.6.3",
+    "vite": "^2.9.7"
+  }
+}
